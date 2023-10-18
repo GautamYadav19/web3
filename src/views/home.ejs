@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>Home</title>
+    <style>
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      .text-shadow {
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        font-size: 21px;
+      }
+
+      .plus-sign {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background: lightblue;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+      }
+      .plus-sign-text {
+        position: relative;
+        left: 0%;
+        top: 8%;
+        font-size: 38px;
+      }
+
+      .icon-img-add-task {
+        position: relative;
+        left: 1%;
+        top: -12%;
+        height: 75px;
+      }
+      .icon-img {
+        height: 50px;
+      }
+      .plus-sign-text-img {
+        position: relative;
+        left: 5px;
+        top: 12px;
+        height: 650px;
+      }
+      .card {
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <img
+          src="https://rb.gy/p4nuo"
+          class="img-fluid max-width:100% center shadow-lg p-3 mb-2 mt-4 bg-white rounded"
+          alt=""
+        />
+      </div>
+
+      <hr />
+      <div class="row m-5 d-flex justify-content-center">
+        <div
+          class="card text-center shadow p-3 m-3 bg-white rounded"
+          style="width: 18rem"
+        >
+          <div class="card-body">
+            <h5 class="card-header">Add Task</h5>
+            <p class="card-text text-shadow">Here you add your new task .</p>
+            <div class="plus-sign" style="background: greenyellow">
+              <span class="plus-sign-text-img">
+                <a href="" routerLink="/api/todos">
+                  <img
+                    class="icon-img-add-task"
+                    src="https://thenounproject.com/api/private/icons/1022926/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0"
+                    alt=""
+                  />
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="card text-center shadow p-3 m-3 bg-white rounded"
+          style="width: 18rem"
+        >
+          <div class="card-body">
+            <h5 class="card-header">List Of Task</h5>
+            <p class="card-text text-shadow">Here you see your all tasks .</p>
+            <div class="plus-sign">
+              <span class="plus-sign-text">
+                <a href="" routerLink="home/list">
+                  <img
+                    class="icon-img"
+                    src="https://cdn-icons-png.flaticon.com/512/1950/1950715.png"
+                    alt=""
+                  />
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

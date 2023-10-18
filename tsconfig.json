@@ -1,0 +1,12 @@
+
+{
+    "compilerOptions": {
+      "target": "ES6", // Or a higher version
+      "module": "commonjs",
+      "outDir": "./dist", // Specify your output directory
+      "rootDir": "./src", // Specify your source directory
+      "esModuleInterop": true, // Allows import "express" syntax
+      "types": ["node"] // Include Node.js types
+    }
+  }
+  
